@@ -34,7 +34,7 @@ print('  -> Mostre o primeiro nome e segundo nome separadamente:')
 print(nomediv[0])
 print(nomediv[1])
 
-nomecasada = input('  -> Digite o sobrenome de casada: ')
+nomecasada = input('  -> Digite o sobrenome de casado(a): ')
 
 # incluir  na lista
 print('  -> Adicionando o sobrenome:')
@@ -45,3 +45,6 @@ print(nomediv)
 print('  -> Removendo o sobrenome:')
 nomediv.pop(2)
 print(nomediv)
+print('  ')
+print(' Fim do programa! ')
+print(emoji.emojize(':beaming_face_with_smiling_eyes:'))
