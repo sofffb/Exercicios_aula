@@ -2,10 +2,18 @@
 # tente fazer como uma STRING e MATEMATICAMENTE
 
 num = int(input('Digite um número qualquer entre 0 à 9999 ->  '))
-# transformando número em texto
-n = str(num)
-print(f'Unidade: {n[3]}')
-print(f'Dezena: {n[2]}')
-print(f'Centena: {n[1]}')
-print(f'Milhar: {n[0]}')
+
+# Matematicamente, ao invés de transformar em string:
+# unidade = num dividão inteira por 1 o resto da divisão - ou módulo- por 10
+u = num // 1 % 10
+print(f'Unidade: {u}')
+
+d = num // 10 % 10
+print(f'Dezena: {d}')
+
+c = num // 100 %10
+print(f'Centena: {c}')
+
+m = num // 1000 % 10
+print(f'Milhar: {m}')
 
